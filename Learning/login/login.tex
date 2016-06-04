@@ -1,0 +1,29 @@
+\chapter{Tự động đăng nhập Raspberry Pi sau khi khởi động}
+\label{Sub:auto-login}
+Tham khảo tại:
+
+\textsf{http://www.raspberrypi-spy.co.uk/2015/02/how-to-autorun-a-python-script-on-raspberry-pi-boot/}
+%\begin{footnotesize}
+%\verb|http://www.raspberrypi-spy.co.uk/2015/02/how-to-autorun-a-python-script-on-raspberry-pi-boot/|
+%\end{footnotesize}
+
+Mặc định khi Raspberry Pi khởi động, cần phải đăng nhập username và password mới sử dụng được. Với một số ứng dụng thực tế, cần tự động đăng nhập mới có thể hoạt động được.\\
+
+Thực hiện theo các bước sau:
+\begin{itemize}
+\item Mở file \verb|inittab|, dùng lệnh:
+\begin{lstlisting}[language=bash]
+$ sudo nano /etc/inittab
+\end{lstlisting}
+\item Tìm đến dòng dưới và thêm dấu \verb|#| vào trước nó:
+\begin{lstlisting}[language=bash]
+1:2345:respawn:/sbin/getty 115200 tty1
+\end{lstlisting}
+(tìm đến dòng có \verb|1:2345:respawn:/sbin/getty ....| là được, còn các tham số phía sau tùy thuộc vào phiên bản hệ điều hành).
+\item Thay thế dòng trên bằng dòng sau (với \verb|pi| là tên username):
+\begin{lstlisting}[language=bash]
+1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1
+\end{lstlisting}
+\item Nhấn \verb|Ctrl - X - Y| để lưu lại nội dung thay đổi và thoát.
+\item Khởi động lại Pi: \verb|sudo reboot|.
+\end{itemize}

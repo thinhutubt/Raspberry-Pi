@@ -1,0 +1,44 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[utf8]{vietnam} %Bien dich duoc tieng Viet
+\usepackage{amsmath,amsfonts,amssymb} %Font toan
+\usepackage{type1cm}
+\usepackage{graphicx}
+%\graphicspath{ {images/} }
+\usepackage{subfig}
+\usepackage[unicode]{hyperref} %Tu dong tao bookmark
+\usepackage{indentfirst} %Thut vao dau dong o tat ca cac doan
+\usepackage{listings} %Dinh dang code
+\usepackage{color} %Mau sac
+\usepackage[left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry} %Canh lề trái - phải - trên - dưới cho tài liệu
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  captionpos=t,
+  breakatwhitespace=true,
+  tabsize=2
+}
+\begin{document}
+%\input{title-page.tex}
+%\input{install-pi/Install-Pi-OS.tex}
+\tableofcontents
+\input{remote/remote-pi.tex}
+\input{network/network-pi.tex}
+\input{login/login.tex}
+\input{run-script-python/run-script-python.tex}
+\include{GPIO/GPIO-Pi}
+\end{document}
