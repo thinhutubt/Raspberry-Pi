@@ -8,10 +8,10 @@
 \contentsline {chapter}{\numberline {2}M\IeC {\d a}ng Internet v\IeC {\'\ohorn }i Raspberry Pi}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}K\IeC {\'\ecircumflex }t n\IeC {\'\ocircumflex }i internet v\IeC {\'\ohorn }i d\IeC {\^a}y m\IeC {\d a}ng LAN}{7}{section.2.1}
 \contentsline {section}{\numberline {2.2}K\IeC {\'\ecircumflex }t n\IeC {\'\ocircumflex }i internet v\IeC {\'\ohorn }i USB Wifi}{7}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t Drive}{7}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t Driver}{8}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t \IeC {\dj }\IeC {\d i}a ch\IeC {\h i} IP t\IeC {\~\i }nh}{8}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}S\IeC {\h \uhorn } d\IeC {\d u}ng chung Wifi v\IeC {\'\ohorn }i Laptop}{9}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}H\IeC {\d \ecircumflex } \IeC {\dj }i\IeC {\`\ecircumflex }u h\IeC {\`a}nh Ubuntu}{9}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.3}S\IeC {\h \uhorn } d\IeC {\d u}ng chung Wifi v\IeC {\'\ohorn }i Laptop}{10}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}H\IeC {\d \ecircumflex } \IeC {\dj }i\IeC {\`\ecircumflex }u h\IeC {\`a}nh Ubuntu}{10}{subsection.2.3.1}
 \contentsline {chapter}{\numberline {3}T\IeC {\d \uhorn } \IeC {\dj }\IeC {\d \ocircumflex }ng \IeC {\dj }\IeC {\u a}ng nh\IeC {\d \acircumflex }p Raspberry Pi sau khi kh\IeC {\h \ohorn }i \IeC {\dj }\IeC {\d \ocircumflex }ng}{13}{chapter.3}
 \contentsline {chapter}{\numberline {4}Ch\IeC {\d a}y ch\IeC {\uhorn }\IeC {\ohorn }ng tr\IeC {\`\i }nh Python tr\IeC {\^e}n Raspberry Pi}{14}{chapter.4}
 \contentsline {section}{\numberline {4.1}Python tr\IeC {\^e}n Raspberry Pi}{14}{section.4.1}

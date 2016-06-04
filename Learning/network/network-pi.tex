@@ -1,9 +1,21 @@
 \chapter{Mạng Internet với Raspberry Pi}
 \section{Kết nối internet với dây mạng LAN}
 Trên Raspberry Pi có hổ trợ cổng Ethernet, chúng ta có thể kết nối dây mạng trực tiếp vào đây.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=.4]{network/images/day-lan}
+\end{center}
+\caption{Dây LAN}
+\end{figure}
 \section{Kết nối internet với USB Wifi}
 Trong phần này, mình sử dụng USB Wifi TP Link 725N
-\subsection{Cài đặt Drive}
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=.3]{network/images/TL-WN725N}
+\end{center}
+\caption{USB Wifi TL-WN725N}
+\end{figure}
+\subsection{Cài đặt Driver}
 Tham khảo tại: \verb|https://www.raspberrypi.org/forums/viewtopic.php?p=462982|
 
 Thực hiện theo các bước sau:
@@ -42,6 +54,7 @@ Tham khảo tại địa chỉ:
 \verb|http://weworkweplay.com/play/automatically-connect-a-raspberry-pi-to-a-wifi-network/|
 \end{footnotesize}\\
 
+Trong trường hợp, bạn cài IP tĩnh khi chuyển sang một địa chỉ IP khác (ví dụ: địa chỉ IP tĩnh \verb|192.168.0.100| sang nơi có địa chỉ IP là \verb|192.168.1.88|) thì sẽ không kết nối được Internet, bạn cần đổi lại địa chỉ IP cho phù hợp hoặc chuyển sang địa chỉ IP động (đổi \verb|stactic| thành \verb|dhcp| và chú thích các dòng khai báo IP tĩnh -- xem phần hướng dẫn bên dưới).
 Ta sửa đổi nội dung của 2 tập tin dưới đây:
 \begin{itemize}
 \item Tập tin: \verb|interfaces|, mở tập tin:
@@ -117,4 +130,8 @@ $ sudo cat /var/lib/misc/dnsmasq.leases
 $ ssh pi@10.42.0.31
 \end{lstlisting}
 \item Nhập password đăng nhập tài khoản username là \verb|pi|.
+\item[$\ast$] Nếu chạy lệnh trên không được thì bạn chạy với quyền root:
+\begin{lstlisting}[language=bash]
+$ sudo ssh pi@10.42.0.31
+\end{lstlisting}
 \end{itemize}

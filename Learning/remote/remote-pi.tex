@@ -69,18 +69,52 @@ GND & GND & Đen
 Khi Raspberry Pi có kết nối mạng Internet, ta có thể dùng các phần mềm: \verb|SSH|, \verb|Remote Desktop|, \verb|VNC|,\ldots~ để điều khiển.
 \begin{itemize}
 \item Kiểm tra địa chỉ IP của Pi bằng phần mềm: ipscan (trên Windows) hoặc nmap (trên Ubuntu).
+\begin{itemize}
+\item Phần mềm \verb|ipscan|: giao diện trực quan, dễ sử dụng.
+\item Chương trình \verb|nmap| trên Ubuntu:
+\begin{list}{+}{}
+\item Cài đặt chương trình:
+\begin{lstlisting}[language=bash]
+sudo apt-get install nmap
+\end{lstlisting}
+\item Tìm các địa chỉ IP trong mạng nội bộ:
+\begin{lstlisting}[language=bash]
+sudo nmap -sP 192.168.1.1-254
+\end{lstlisting}
+THay đổi địa chỉ IP \verb|192.168.1.1| cho phụ hợp với địa chỉ IP của bạn.
+\end{list}
+\end{itemize}
 \item Chọn chương trình phù hợp để điều khiển Raspberry Pi: 
 \begin{itemize}
 \item Với \verb|SSH|: không hổ trợ giao diện đồ họa.
-\item Với \verb|Remote Desktop| (Pi cần cài đặt: \verb|xrdp|, dùng lệnh: \verb|sudo apt-get install xrdp|), \verb|VNC|: có hổ trợ giao diện đồ họa.
+\begin{lstlisting}[language=bash]
+ssh pi@192.168.0.100
+\end{lstlisting}
+Trong đó: \verb|pi| là tên user bạn cần đăng nhập, kế tiếp là địa chỉ IP của Raspberry Pi.
+\item Với \verb|VNC| hoặc \verb|Remote Desktop|: có hổ trợ giao diện đồ họa.
+\item[$\ast$]  Với \verb|Remote Desktop| Pi cần cài đặt \verb|xrdp|:
+\begin{lstlisting}[language=bash]
+sudo apt-get install xrdp
+\end{lstlisting}
 \end{itemize}
 \item Tùy theo chương trình bạn chọn: ta cần phải nhập địa chỉ IP, username và password (nếu có yêu cầu điền số \verb|port|: ta điền 22).
 \item Sao chép dữ liệu:
 \begin{itemize}
 \item Trên Window: dùng \verb|Winscp|.
 \item Trên Ubuntu: dùng \verb|FileZilla|.
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=.45]{remote/images/FileZilla}
+\end{center}
+\caption{Sao chép dữ liệu từ Raspberry Pi với FileZilla}
+\end{figure}
+\begin{list}{+}{}
+\item \verb|Host|: điền địa chỉ IP.
+\item \verb|Username|: tên cần đăng nhập.
+\item \verb|Passwork|: mật khẩu đăng nhập cho tài khoản ở ô \verb|Username|.
+\item \verb|Port|: điền số 22.
+\end{list}
 \item[$\ast$] Ta cũng cần nhập vào thông tin như trên để truy cập được Pi.
 \end{itemize}
 \item \textit{Lưu ý}: Phần trình bày trên áp ngay cho mạng nội bộ, khi không phải mạng nội bộ ta cần cấu hình mạng rồi mới áp dụng được hướng dẫn ở phần này.
 \end{itemize}
-

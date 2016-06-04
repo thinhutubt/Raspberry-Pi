@@ -24,16 +24,22 @@ Tham khảo tại: \verb|https://www.youtube.com/watch?v=8iU9TnYFOV0|\\
 Thực hiện theo các bước sau:
 \begin{itemize}
 \item Không cần tự động đăng nhập.
-\item Copy file \verb|myfile.py| đến thư mục \verb|\home\pi| (dùng lệnh \verb|cp|).
+%\item Copy file \verb|myfile.py| đến thư mục \verb|\home\pi| (dùng lệnh \verb|cp|).
 \item Mở file \verb|crontab| gõ lệnh:
 \begin{lstlisting}[language=bash]
 $ sudo crontab -e
 \end{lstlisting}
 \item Thêm dòng sau vào cuối file: 
 \begin{lstlisting}[language=bash]
-@reboot sudo python myfile.py &
+@reboot sudo python /home/pi/myfile.py &
+\end{lstlisting}
+\item Để chạy nhiều file cùng một lúc:
+\begin{lstlisting}[language=bash]
+@reboot sudo python /home/pi/myfile1.py & sudo python /home/pi/myfile2.py & 
 \end{lstlisting}
 Ký hiệu \verb|&| có nghĩa là file \verb|myfile.py| sẽ chạy nền.
+
+Đường dẫn \verb|/home/pi| là đỉa chỉ của thư mục lưu tập tin Python (Thay đổi địa chỉ này cho phù hợp với nơi tập tin Python của bạn).
 \begin{figure}[h!]
 \begin{center}
 \includegraphics[scale=.5]{run-script-python/images/auto-run-python-1}
