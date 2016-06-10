@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.30)  5 JUN 2016 01:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.30)  10 JUN 2016 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -844,18 +844,192 @@ LaTeX Info: Redefining \nameref on input line 35.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./LPi.toc)
+(./LPi.toc [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@toc=\write4
 \openout4 = `LPi.toc'.
 
- (./remote/remote-pi.tex [1
 
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(./setup-os/setup-os.tex [2]
 Ch\h {u} \dj \`\ecircumflex  1.
+<setup-os/images/Pi-H.jpg, id=275, 275.0275pt x 184.69pt>
+File: setup-os/images/Pi-H.jpg Graphic file (type jpg)
+
+<use setup-os/images/Pi-H.jpg>
+Package pdftex.def Info: setup-os/images/Pi-H.jpg used on input line 8.
+(pdftex.def)             Requested size: 137.51341pt x 92.34476pt.
+
+<setup-os/images/SD-H.jpg, id=276, 250.9375pt x 250.9375pt>
+File: setup-os/images/SD-H.jpg Graphic file (type jpg)
+
+<use setup-os/images/SD-H.jpg>
+Package pdftex.def Info: setup-os/images/SD-H.jpg used on input line 15.
+(pdftex.def)             Requested size: 100.37321pt x 100.37321pt.
+ [3
+
+ <./setup-os/images/Pi-H.jpg> <./setup-os/images/SD-H.jpg>]
+LaTeX Font Info:    Try loading font information for T5+cmtt on input line 27.
+ (/usr/share/texlive/texmf-dist/tex/latex/vntex/t5cmtt.fd
+File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Overfull \hbox (6.87354pt too wide) in paragraph at lines 46--47
+[]\T5/cmr/m/n/12 C i ^^_°t c¡c ph¦n m·m ð ph¦n chu©n bà, v½ dö: []\T5/cmtt/m/n/
+12 SDFormatter \T5/cmr/m/n/12 v  []\T5/cmtt/m/n/12 Win32DiskImage\T5/cmr/m/n/12
+ . 
+ []
+
+<setup-os/images/SDFormatter.png, id=286, 328.97906pt x 250.68657pt>
+File: setup-os/images/SDFormatter.png Graphic file (type png)
+
+<use setup-os/images/SDFormatter.png>
+Package pdftex.def Info: setup-os/images/SDFormatter.png used on input line 51.
+
+(pdftex.def)             Requested size: 131.5893pt x 100.27284pt.
+
+<setup-os/images/Win32DiskImage.png, id=287, 319.1925pt x 161.85469pt>
+File: setup-os/images/Win32DiskImage.png Graphic file (type png)
+
+<use setup-os/images/Win32DiskImage.png>
+Package pdftex.def Info: setup-os/images/Win32DiskImage.png used on input line 
+58.
+(pdftex.def)             Requested size: 159.59586pt x 80.92714pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./setup-os/images/SDFormatter.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+File: setup-os/images/SDFormatter.png Graphic file (type png)
+<use setup-os/images/SDFormatter.png>
+Package pdftex.def Info: setup-os/images/SDFormatter.png used on input line 75.
+
+(pdftex.def)             Requested size: 131.5893pt x 100.27284pt.
+
+<setup-os/images/NOOBS.png, id=294, 606.265pt x 466.74374pt>
+File: setup-os/images/NOOBS.png Graphic file (type png)
+
+<use setup-os/images/NOOBS.png>
+Package pdftex.def Info: setup-os/images/NOOBS.png used on input line 83.
+(pdftex.def)             Requested size: 303.13176pt x 233.37129pt.
+ [5 <./setup-os/images/Win32DiskImage.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+<setup-os/images/raspi.png, id=302, 1303.87125pt x 315.1775pt>
+File: setup-os/images/raspi.png Graphic file (type png)
+
+<use setup-os/images/raspi.png>
+Package pdftex.def Info: setup-os/images/raspi.png used on input line 95.
+(pdftex.def)             Requested size: 456.36177pt x 110.31377pt.
+
+Overfull \hbox (29.57042pt too wide) in paragraph at lines 95--96
+ [] 
+ []
+
+<setup-os/images/Time.png, id=303, 1303.87125pt x 310.15875pt>
+File: setup-os/images/Time.png Graphic file (type png)
+
+<use setup-os/images/Time.png>
+Package pdftex.def Info: setup-os/images/Time.png used on input line 103.
+(pdftex.def)             Requested size: 456.36177pt x 108.55717pt.
+
+Overfull \hbox (29.57042pt too wide) in paragraph at lines 103--104
+ [] 
+ []
+
+[6 <./setup-os/images/NOOBS.png> <./setup-os/images/raspi.png>]
+<setup-os/images/lang.png, id=311, 1277.77374pt x 671.50874pt>
+File: setup-os/images/lang.png Graphic file (type png)
+
+<use setup-os/images/lang.png>
+Package pdftex.def Info: setup-os/images/lang.png used on input line 113.
+(pdftex.def)             Requested size: 447.22751pt x 235.03159pt.
+
+Overfull \hbox (20.43616pt too wide) in paragraph at lines 113--114
+ [] 
+ []
+
+LaTeX Font Info:    Try loading font information for T5+cmss on input line 115.
+
+(/usr/share/texlive/texmf-dist/tex/latex/vntex/t5cmss.fd
+File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Overfull \hbox (1.1569pt too wide) in paragraph at lines 110--117
+[]\T5/cmr/m/n/12 ^^^êi []\T5/cmtt/m/n/12 en_GB.UTF-8 UTF-8 \T5/cmr/m/n/12 th nh
+ []\T5/cmtt/m/n/12 en_US.UTF-8 UTF-8  \T5/cmr/m/n/12 (sû döng d§u c¡ch []\T5/cm
+tt/m/n/12 space
+ []
+
+<setup-os/images/time-zone.png, id=312, 1257.69875pt x 436.63126pt>
+File: setup-os/images/time-zone.png Graphic file (type png)
+
+<use setup-os/images/time-zone.png>
+Package pdftex.def Info: setup-os/images/time-zone.png used on input line 123.
+(pdftex.def)             Requested size: 440.20116pt x 152.82323pt.
+
+Overfull \hbox (13.4098pt too wide) in paragraph at lines 123--123
+ [] 
+ []
+
+<setup-os/images/time-zone-2.png, id=313, 634.37pt x 670.505pt>
+File: setup-os/images/time-zone-2.png Graphic file (type png)
+
+<use setup-os/images/time-zone-2.png>
+Package pdftex.def Info: setup-os/images/time-zone-2.png used on input line 125
+.
+(pdftex.def)             Requested size: 222.03282pt x 234.68027pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7 <./setup-os/images/Time.png> <./setup-os/images/lang.png>]
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+) [8 <./setup-os/images/time-zone.png> <./setup-os/images/time-zone-2.png>] [9]
+
+<setup-os/images/ssh-setup.png, id=373, 1292.83pt x 305.14pt>
+File: setup-os/images/ssh-setup.png Graphic file (type png)
+
+<use setup-os/images/ssh-setup.png>
+Package pdftex.def Info: setup-os/images/ssh-setup.png used on input line 200.
+(pdftex.def)             Requested size: 452.49728pt x 106.80058pt.
+
+Overfull \hbox (25.70593pt too wide) in paragraph at lines 200--201
+ [] 
+ []
+
+<setup-os/images/a4-ssh.png, id=375, 1292.83pt x 307.1475pt>
+File: setup-os/images/a4-ssh.png Graphic file (type png)
+
+<use setup-os/images/a4-ssh.png>
+Package pdftex.def Info: setup-os/images/a4-ssh.png used on input line 207.
+(pdftex.def)             Requested size: 452.49728pt x 107.50323pt.
+
+Overfull \hbox (25.70593pt too wide) in paragraph at lines 207--208
+ [] 
+ []
+
+<setup-os/images/a4-ssh-2.png, id=377, 544.0325pt x 364.36125pt>
+File: setup-os/images/a4-ssh-2.png Graphic file (type png)
+
+<use setup-os/images/a4-ssh-2.png>
+Package pdftex.def Info: setup-os/images/a4-ssh-2.png used on input line 214.
+(pdftex.def)             Requested size: 190.41423pt x 127.52834pt.
+) (./remote/remote-pi.tex [10 <./setup-os/images/ssh-setup.png> <./setup-os/ima
+ges/a4-ssh.png> <./setup-os/images/a4-ssh-2.png>]
+Ch\h {u} \dj \`\ecircumflex  2.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
-<remote/images/HDMI-VGA-white.jpg, id=180, 501.875pt x 501.875pt>
+<remote/images/HDMI-VGA-white.jpg, id=385, 501.875pt x 501.875pt>
 File: remote/images/HDMI-VGA-white.jpg Graphic file (type jpg)
 
 <use remote/images/HDMI-VGA-white.jpg>
@@ -863,61 +1037,102 @@ Package pdftex.def Info: remote/images/HDMI-VGA-white.jpg used on input line 14
 .
 (pdftex.def)             Requested size: 150.56366pt x 150.56366pt.
 
-<remote/images/RS232-to-ttl.jpg, id=181, 702.625pt x 526.96875pt>
+<remote/images/RS232-to-ttl.jpg, id=386, 702.625pt x 526.96875pt>
 File: remote/images/RS232-to-ttl.jpg Graphic file (type jpg)
 
 <use remote/images/RS232-to-ttl.jpg>
 Package pdftex.def Info: remote/images/RS232-to-ttl.jpg used on input line 23.
 (pdftex.def)             Requested size: 128.0387pt x 96.02425pt.
 
-<remote/images/cap-usb-to-com.jpg, id=182, 602.25pt x 506.89375pt>
+<remote/images/cap-usb-to-com.jpg, id=387, 602.25pt x 506.89375pt>
 File: remote/images/cap-usb-to-com.jpg Graphic file (type jpg)
 
 <use remote/images/cap-usb-to-com.jpg>
 Package pdftex.def Info: remote/images/cap-usb-to-com.jpg used on input line 25
 .
 (pdftex.def)             Requested size: 128.0387pt x 107.7657pt.
- [2
+ [11
 
  <./remote/images/HDMI-VGA-white.jpg>]
-LaTeX Font Info:    Try loading font information for T5+cmtt on input line 40.
-(/usr/share/texlive/texmf-dist/tex/latex/vntex/t5cmtt.fd
-File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-<remote/images/cap-usb-to-com-pl2303.png, id=190, 648.4225pt x 485.815pt>
-File: remote/images/cap-usb-to-com-pl2303.png Graphic file (type png)
+Overfull \hbox (6.73465pt too wide) in paragraph at lines 45--47
+[][]\T5/cmtt/m/n/10 https://drive.google.com/file/d/0B6_x_4VdySxqVUJVVVlTTXZfaE
+E/view?usp=sharing 
+ []
 
-<use remote/images/cap-usb-to-com-pl2303.png>
-Package pdftex.def Info: remote/images/cap-usb-to-com-pl2303.png used on input 
-line 51.
-(pdftex.def)             Requested size: 194.52824pt x 145.74562pt.
+<remote/images/COM7-Putty.png, id=395, 444.91219pt x 369.63094pt>
+File: remote/images/COM7-Putty.png Graphic file (type png)
+
+<use remote/images/COM7-Putty.png>
+Package pdftex.def Info: remote/images/COM7-Putty.png used on input line 56.
+(pdftex.def)             Requested size: 222.45554pt x 184.815pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3 <./remote/images/RS232-to-ttl.jpg> <./remote/images/cap-usb-to-com.jpg>]
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
-) [4 <./remote/images/cap-usb-to-com-pl2303.png>]
-<remote/images/FileZilla.png, id=215, 906.38625pt x 199.74625pt>
+[12 <./remote/images/RS232-to-ttl.jpg> <./remote/images/cap-usb-to-com.jpg>]
+<remote/images/Putty.png, id=405, 641.39626pt x 618.31pt>
+File: remote/images/Putty.png Graphic file (type png)
+
+<use remote/images/Putty.png>
+Package pdftex.def Info: remote/images/Putty.png used on input line 64.
+(pdftex.def)             Requested size: 256.55396pt x 247.31961pt.
+ [13 <./remote/images/COM7-Putty.png> <./remote/images/Putty.png>]
+<remote/images/cap-usb-to-com-pl2303.png, id=412, 648.4225pt x 485.815pt>
+File: remote/images/cap-usb-to-com-pl2303.png Graphic file (type png)
+
+<use remote/images/cap-usb-to-com-pl2303.png>
+Package pdftex.def Info: remote/images/cap-usb-to-com-pl2303.png used on input 
+line 84.
+(pdftex.def)             Requested size: 194.52824pt x 145.74562pt.
+ [14 <./remote/images/cap-usb-to-com-pl2303.png>]
+<remote/images/FileZilla.png, id=421, 906.38625pt x 199.74625pt>
 File: remote/images/FileZilla.png Graphic file (type png)
 
 <use remote/images/FileZilla.png>
-Package pdftex.def Info: remote/images/FileZilla.png used on input line 107.
+Package pdftex.def Info: remote/images/FileZilla.png used on input line 147.
 (pdftex.def)             Requested size: 407.87004pt x 89.88498pt.
-) (./network/network-pi.tex [5 <./remote/images/FileZilla.png>]
-Ch\h {u} \dj \`\ecircumflex  2.
-<network/images/day-lan.jpg, id=223, 301.125pt x 266.9975pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15] <remote/images/VNC-1.png, id=436, 553.06625pt x 509.905pt>
+File: remote/images/VNC-1.png Graphic file (type png)
+
+<use remote/images/VNC-1.png>
+Package pdftex.def Info: remote/images/VNC-1.png used on input line 196.
+(pdftex.def)             Requested size: 193.57608pt x 178.46942pt.
+
+<remote/images/VNC-2.png, id=437, 555.07375pt x 509.905pt>
+File: remote/images/VNC-2.png Graphic file (type png)
+
+<use remote/images/VNC-2.png>
+Package pdftex.def Info: remote/images/VNC-2.png used on input line 198.
+(pdftex.def)             Requested size: 194.27872pt x 178.46942pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<remote/images/VNC-3.png, id=439, 319.1925pt x 215.80624pt>
+File: remote/images/VNC-3.png Graphic file (type png)
+
+<use remote/images/VNC-3.png>
+Package pdftex.def Info: remote/images/VNC-3.png used on input line 206.
+(pdftex.def)             Requested size: 143.63528pt x 97.11191pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./network/network-pi.tex [16 <./remote/images/FileZilla.png>] [17 <./remote/
+images/VNC-1.png> <./remote/images/VNC-2.png> <./remote/images/VNC-3.png>]
+Ch\h {u} \dj \`\ecircumflex  3.
+<network/images/day-lan.jpg, id=462, 301.125pt x 266.9975pt>
 File: network/images/day-lan.jpg Graphic file (type jpg)
 
 <use network/images/day-lan.jpg>
 Package pdftex.def Info: network/images/day-lan.jpg used on input line 6.
 (pdftex.def)             Requested size: 120.44786pt x 106.79709pt.
 
-<network/images/TL-WN725N.jpg, id=224, 592.2125pt x 444.66125pt>
+<network/images/TL-WN725N.jpg, id=463, 592.2125pt x 444.66125pt>
 File: network/images/TL-WN725N.jpg Graphic file (type jpg)
 
 <use network/images/TL-WN725N.jpg>
@@ -929,7 +1144,7 @@ Overfull \hbox (22.66829pt too wide) in paragraph at lines 19--20
 orums/viewtopic.php?p=462982 
  []
 
-[6
+[18
 
  <./network/images/day-lan.jpg> <./network/images/TL-WN725N.jpg>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -956,37 +1171,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--56
 
  []
 
-[7]
+[19]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 65.
- (./interfaces) (./wpa_supplicant.conf) [8]
-<network/images/share-wifi-1.png, id=292, 402.50375pt x 331.2375pt>
+ (./interfaces) (./wpa_supplicant.conf) [20]
+<network/images/share-wifi-1.png, id=530, 402.50375pt x 331.2375pt>
 File: network/images/share-wifi-1.png Graphic file (type png)
 
 <use network/images/share-wifi-1.png>
 Package pdftex.def Info: network/images/share-wifi-1.png used on input line 81.
 
 (pdftex.def)             Requested size: 201.25137pt x 165.61833pt.
-LaTeX Font Info:    Try loading font information for T5+cmss on input line 83.
 
-(/usr/share/texlive/texmf-dist/tex/latex/vntex/t5cmss.fd
-File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
 Overfull \hbox (47.21368pt too wide) in paragraph at lines 78--85
 []\T5/cmr/m/n/12 Trong thanh t¼m ki¸m []\T5/cmtt/m/n/12 Dash\T5/cmr/m/n/12 : gã
  v o []\T5/cmtt/m/n/12 Network Connections\T5/cmr/m/n/12 , chån []\T5/cmtt/m/n/
 12 Network Connections
  []
 
-<network/images/share-wifi-2.png, id=293, 403.5075pt x 333.245pt>
+<network/images/share-wifi-2.png, id=531, 403.5075pt x 333.245pt>
 File: network/images/share-wifi-2.png Graphic file (type png)
 
 <use network/images/share-wifi-2.png>
 Package pdftex.def Info: network/images/share-wifi-2.png used on input line 88.
 
 (pdftex.def)             Requested size: 201.75325pt x 166.62209pt.
- [9 <./network/images/share-wifi-1.png> <./network/images/share-wifi-2.png>]
-<network/images/share-wifi-3.png, id=301, 644.4075pt x 283.0575pt>
+ [21 <./network/images/share-wifi-1.png> <./network/images/share-wifi-2.png>]
+<network/images/share-wifi-3.png, id=538, 644.4075pt x 283.0575pt>
 File: network/images/share-wifi-3.png Graphic file (type png)
 
 <use network/images/share-wifi-3.png>
@@ -994,7 +1205,7 @@ Package pdftex.def Info: network/images/share-wifi-3.png used on input line 96.
 
 (pdftex.def)             Requested size: 257.75844pt x 113.22098pt.
 
-<network/images/share-wifi-4.png, id=302, 477.785pt x 492.84125pt>
+<network/images/share-wifi-4.png, id=539, 477.785pt x 492.84125pt>
 File: network/images/share-wifi-4.png Graphic file (type png)
 
 <use network/images/share-wifi-4.png>
@@ -1002,7 +1213,7 @@ Package pdftex.def Info: network/images/share-wifi-4.png used on input line 103
 .
 (pdftex.def)             Requested size: 191.11061pt x 197.133pt.
 
-<network/images/share-wifi-5.png, id=304, 478.78876pt x 492.84125pt>
+<network/images/share-wifi-5.png, id=541, 478.78876pt x 492.84125pt>
 File: network/images/share-wifi-5.png Graphic file (type png)
 
 <use network/images/share-wifi-5.png>
@@ -1013,7 +1224,7 @@ Package pdftex.def Info: network/images/share-wifi-5.png used on input line 110
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<network/images/share-wifi-6.png, id=306, 476.78125pt x 493.845pt>
+<network/images/share-wifi-6.png, id=543, 476.78125pt x 493.845pt>
 File: network/images/share-wifi-6.png Graphic file (type png)
 
 <use network/images/share-wifi-6.png>
@@ -1024,10 +1235,10 @@ Package pdftex.def Info: network/images/share-wifi-6.png used on input line 117
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10 <./network/images/share-wifi-3.png> <./network/images/share-wifi-4.png>])
-(./login/login.tex [11 <./network/images/share-wifi-5.png> <./network/images/sh
+[22 <./network/images/share-wifi-3.png> <./network/images/share-wifi-4.png>])
+(./login/login.tex [23 <./network/images/share-wifi-5.png> <./network/images/sh
 are-wifi-6.png>]
-Ch\h {u} \dj \`\ecircumflex  3.
+Ch\h {u} \dj \`\ecircumflex  4.
 
 Overfull \hbox (29.2566pt too wide) in paragraph at lines 5--9
 []\T5/cmss/m/n/12 http://www.raspberrypi-spy.co.uk/2015/02/how-to-autorun-a-pyt
@@ -1044,27 +1255,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-) (./run-script-python/run-script-python.tex [12
+) (./run-script-python/run-script-python.tex [24
 
 ]
-Ch\h {u} \dj \`\ecircumflex  4.
+Ch\h {u} \dj \`\ecircumflex  5.
 
 Overfull \hbox (12.94145pt too wide) in paragraph at lines 16--17
 \T5/cmr/m/n/12 root, ta ph£i ch¤y vîi quy·n root: dòng []\T5/cmtt/m/n/12 sudo p
 ython \T5/cmr/m/n/12 ho°c []\T5/cmtt/m/n/12 sudo python file.py
  []
 
-[13
+[25
 
 ]
-<run-script-python/images/auto-run-python-1.png, id=346, 777.90625pt x 593.2162
+<run-script-python/images/auto-run-python-1.png, id=584, 777.90625pt x 593.2162
 5pt>
 File: run-script-python/images/auto-run-python-1.png Graphic file (type png)
  <use run-script-python/images/auto-run-python-1.png>
 Package pdftex.def Info: run-script-python/images/auto-run-python-1.png used on
  input line 45.
 (pdftex.def)             Requested size: 388.95216pt x 296.60739pt.
- [14 <./run-script-python/images/auto-run-python-1.png>]
+ [26 <./run-script-python/images/auto-run-python-1.png>]
 Overfull \hbox (29.2566pt too wide) in paragraph at lines 76--77
 []\T5/cmss/m/n/12 http://www.raspberrypi-spy.co.uk/2015/02/how-to-autorun-a-pyt
 hon-script-on-raspberry-
@@ -1086,24 +1297,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-[15]) [16]
+[27]) [28]
 \openout2 = `GPIO/GPIO-Pi.aux'.
 
  (./GPIO/GPIO-Pi.tex
-Ch\h {u} \dj \`\ecircumflex  5.
+Ch\h {u} \dj \`\ecircumflex  6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<GPIO/images/PiA.jpg, id=402, 323.70938pt x 265.74281pt>
+<GPIO/images/PiA.jpg, id=638, 323.70938pt x 265.74281pt>
 File: GPIO/images/PiA.jpg Graphic file (type jpg)
 
 <use GPIO/images/PiA.jpg>
 Package pdftex.def Info: GPIO/images/PiA.jpg used on input line 9.
 (pdftex.def)             Requested size: 194.22713pt x 159.44691pt.
 
-<GPIO/images/PiB.png, id=403, 318.18875pt x 433.62pt>
+<GPIO/images/PiB.png, id=639, 318.18875pt x 433.62pt>
 File: GPIO/images/PiB.png Graphic file (type png)
 
 <use GPIO/images/PiB.png>
@@ -1114,7 +1325,7 @@ Overfull \hbox (17.86647pt too wide) in paragraph at lines 9--13
 [][]  [][] 
  []
 
-[17
+[29
 
 
  <./GPIO/images/PiA.jpg> <./GPIO/images/PiB.png>]
@@ -1129,56 +1340,56 @@ r/m/n/12 22\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 29\OML/cmm/m/it/12 ; \OT1/cmr/m/n
 /cmm/m/it/12 ;$
  []
 
-<GPIO/images/raspi-1.png, id=419, 508.14844pt x 322.20375pt>
+<GPIO/images/raspi-1.png, id=654, 508.14844pt x 322.20375pt>
 File: GPIO/images/raspi-1.png Graphic file (type png)
 
 <use GPIO/images/raspi-1.png>
 Package pdftex.def Info: GPIO/images/raspi-1.png used on input line 50.
 (pdftex.def)             Requested size: 228.66467pt x 144.99034pt.
 
-<GPIO/images/raspi-2.png, id=420, 512.66531pt x 319.94531pt>
+<GPIO/images/raspi-2.png, id=655, 512.66531pt x 319.94531pt>
 File: GPIO/images/raspi-2.png Graphic file (type png)
 
 <use GPIO/images/raspi-2.png>
 Package pdftex.def Info: GPIO/images/raspi-2.png used on input line 52.
 (pdftex.def)             Requested size: 230.69725pt x 143.97404pt.
 
-<GPIO/images/raspi-3.png, id=421, 507.39563pt x 319.94531pt>
+<GPIO/images/raspi-3.png, id=656, 507.39563pt x 319.94531pt>
 File: GPIO/images/raspi-3.png Graphic file (type png)
 
 <use GPIO/images/raspi-3.png>
 Package pdftex.def Info: GPIO/images/raspi-3.png used on input line 54.
 (pdftex.def)             Requested size: 228.32593pt x 143.97404pt.
 
-<GPIO/images/raspi-4.png, id=422, 509.65407pt x 319.1925pt>
+<GPIO/images/raspi-4.png, id=657, 509.65407pt x 319.1925pt>
 File: GPIO/images/raspi-4.png Graphic file (type png)
 
 <use GPIO/images/raspi-4.png>
 Package pdftex.def Info: GPIO/images/raspi-4.png used on input line 56.
 (pdftex.def)             Requested size: 229.34221pt x 143.63528pt.
 
-<GPIO/images/raspi-5.png, id=423, 509.65407pt x 318.43968pt>
+<GPIO/images/raspi-5.png, id=658, 509.65407pt x 318.43968pt>
 File: GPIO/images/raspi-5.png Graphic file (type png)
 
 <use GPIO/images/raspi-5.png>
 Package pdftex.def Info: GPIO/images/raspi-5.png used on input line 58.
 (pdftex.def)             Requested size: 229.34221pt x 143.29652pt.
 
-<GPIO/images/raspi-6.png, id=424, 511.15968pt x 319.94531pt>
+<GPIO/images/raspi-6.png, id=659, 511.15968pt x 319.94531pt>
 File: GPIO/images/raspi-6.png Graphic file (type png)
 
 <use GPIO/images/raspi-6.png>
 Package pdftex.def Info: GPIO/images/raspi-6.png used on input line 60.
 (pdftex.def)             Requested size: 230.01971pt x 143.97404pt.
 
-<GPIO/images/raspi-7.png, id=425, 507.39563pt x 319.1925pt>
+<GPIO/images/raspi-7.png, id=660, 507.39563pt x 319.1925pt>
 File: GPIO/images/raspi-7.png Graphic file (type png)
 
 <use GPIO/images/raspi-7.png>
 Package pdftex.def Info: GPIO/images/raspi-7.png used on input line 62.
 (pdftex.def)             Requested size: 228.32593pt x 143.63528pt.
 
-<GPIO/images/raspi-8.png, id=426, 511.15968pt x 319.1925pt>
+<GPIO/images/raspi-8.png, id=661, 511.15968pt x 319.1925pt>
 File: GPIO/images/raspi-8.png Graphic file (type png)
 
 <use GPIO/images/raspi-8.png>
@@ -1212,17 +1423,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--65
 
 LaTeX Warning: Float too large for page by 7.4106pt on input line 67.
 
-[18] [19 <./GPIO/images/raspi-1.png> <./GPIO/images/raspi-2.png> <./GPIO/images
+[30] [31 <./GPIO/images/raspi-1.png> <./GPIO/images/raspi-2.png> <./GPIO/images
 /raspi-3.png> <./GPIO/images/raspi-4.png> <./GPIO/images/raspi-5.png> <./GPIO/i
 mages/raspi-6.png> <./GPIO/images/raspi-7.png> <./GPIO/images/raspi-8.png>]
-<GPIO/images/raspi-9.png, id=447, 509.65407pt x 319.94531pt>
+<GPIO/images/raspi-9.png, id=681, 509.65407pt x 319.94531pt>
 File: GPIO/images/raspi-9.png Graphic file (type png)
 
 <use GPIO/images/raspi-9.png>
 Package pdftex.def Info: GPIO/images/raspi-9.png used on input line 74.
 (pdftex.def)             Requested size: 254.8264pt x 159.97226pt.
 
-<GPIO/images/raspi-10.png, id=448, 511.9125pt x 321.45094pt>
+<GPIO/images/raspi-10.png, id=682, 511.9125pt x 321.45094pt>
 File: GPIO/images/raspi-10.png Graphic file (type png)
 
 <use GPIO/images/raspi-10.png>
@@ -1245,7 +1456,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-[20 <./GPIO/images/raspi-9.png> <./GPIO/images/raspi-10.png>]
+[32 <./GPIO/images/raspi-9.png> <./GPIO/images/raspi-10.png>]
 Overfull \hbox (30.21924pt too wide) in paragraph at lines 100--101
 []\T5/cmr/m/n/12 Th¶m d§u []\T5/cmtt/m/n/12 # \T5/cmr/m/n/12 v o tr÷îc 2 dáng: 
 []\T5/cmtt/m/n/12 blacklist spi-bcm2708 \T5/cmr/m/n/12 v  []\T5/cmtt/m/n/12 bla
@@ -1259,28 +1470,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
-) [21] [22]
-[23] [24]
+) [33] [34]
+[35] [36]
 Overfull \hbox (10.20744pt too wide) in paragraph at lines 273--274
 []\T5/cmr/m/n/12 H m []\T5/cmtt/m/n/12 remove_event_detect()\T5/cmr/m/n/12 : kh
 æng sû döng chùc cõa h m []\T5/cmtt/m/n/12 event_detected()
  []
 
-[25])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
+[37])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
  (./LPi.aux (./GPIO/GPIO-Pi.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `LPi.out' has not changed.
-(rerunfilecheck)             Checksum: E348F13B5437F15313190E3A9DAD09E4;9013.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
+(rerunfilecheck)             Checksum: DD79AC2ED0B2A1762994ED2546F98402;12923.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 14598 strings out of 493304
- 204275 string characters out of 6139871
+ 14864 strings out of 493304
+ 209125 string characters out of 6139871
  340381 words of memory out of 5000000
- 17499 multiletter control sequences out of 15000+600000
+ 17649 multiletter control sequences out of 15000+600000
  26307 words of font info for 59 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,11n,51p,594b,1997s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1296,10 +1511,10 @@ usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr7.pfb></usr/share/texlive
 r/vnss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vntt10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on LPi.pdf (25 pages, 1217306 bytes).
+Output written on LPi.pdf (37 pages, 1955577 bytes).
 PDF statistics:
- 738 PDF objects out of 1000 (max. 8388607)
- 663 compressed objects within 7 object streams
- 339 named destinations out of 1000 (max. 500000)
- 395 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 991 PDF objects out of 1000 (max. 8388607)
+ 883 compressed objects within 9 object streams
+ 432 named destinations out of 1000 (max. 500000)
+ 629 words of extra memory for PDF output out of 10000 (max. 10000000)
 
